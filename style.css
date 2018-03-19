@@ -1,0 +1,124 @@
+/** main cv styles **/
+
+body {
+    background-color: rgb(230, 230, 230)
+}
+
+#cv {
+    border: 1px solid #808080a6;
+    box-shadow: 0 0 15px 3px #21212194;
+    background-color: white
+}
+
+/** cv sidebar styles **/
+
+#cv-sidebar { }
+
+#cv-sidebar .cv-sidebar-content {
+    background-color: #1d1d1d;
+    padding: 20px 40px;
+    color: white;
+}
+
+#cv-sidebar .icon {
+    margin-left: -40px;
+    padding-right: 20px;
+}
+
+/** cv sidebar header styles **/
+
+#cv-sidebar .cv-sidebar-header-content {
+    background-color: rgba(60, 179, 113, 0.62);
+    margin-right: -40%;
+    padding: 20px 40px;
+}
+
+#cv-sidebar .cv-sidebar-header-content .name, 
+#cv-sidebar .cv-sidebar-header-content .job-title {
+    margin: 0
+}
+#cv-sidebar .cv-sidebar-header-content .name {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#cv-main {}
+
+#cv-main .overlay {
+    margin-top: 5%;
+}
+#cv-main .contact {
+    margin-left: 25%;
+}
+#cv-main .icon {
+    margin-left: -5px;
+    padding-right: 20px;
+}
+#cv-main .uk-container {
+    margin-left: 5%;
+}
+#cv-main .other-content {
+    margin-left: 5%;
+}
+
+
+
+
+
+.small-column {
+    width: 35%;
+}
+.big-column {
+    width: 65%;
+}    
+.ok-background {
+    background-color: #1b1b1b
+}
+.right-column {
+    float: right;
+}
+.left-column {
+    float: left;
+}
+.portrait {
+    width: 100%;
+}
+body {
+    font-family: calibri;
+}
+.namebox.container-left-column {
+    color: white;
+    background-color: mediumseagreen;
+    font-size: 25px;
+    padding: 25px;
+    margin: 0px;
+}
+.container-left-column {
+    color: white;
+    margin: 30px;
+}
+.container-right-column {
+    margin: 50px;
+}
+.col1 {
+    width: 25%;
+    float: left;
+}
+.col2 {
+    width: 75%;
+    float: right;
+}
+.thiso-cv-meta .icon {
+    color: white;
+    margin-right: 5px;
+}
+.thiso-cv-meta h2 {
+    color: white;
+}
+.thiso-cv-meta-2 .icon {
+    margin-right: 5px;
+}
+.uk-grid .experience-date {
+    padding: 0px;
+}
